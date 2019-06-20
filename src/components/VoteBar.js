@@ -6,13 +6,13 @@ const VoteBar = ({ upTitle, voteUp, downTitle, voteDown }) => {
       <button
         className="pure-button up-button"
         onClick={voteUp}
-      >
-        {upTitle}
+         >
+      {upTitle}
       </button>
       <button
         className="pure-button down-button"
-        onClick={voteDown}
-      >
+        onClick={voteDown} 
+        > 
         {downTitle}
       </button>
     </div>
